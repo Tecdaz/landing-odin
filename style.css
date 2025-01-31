@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    background-color: #1f2937;
+    padding: 16px 48px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1024px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    box-sizing: border-box;
+    background-color: #1f2937;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 16px;
+    max-width: 1024px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content p {
+    flex: 1;
+    text-wrap: wrap;
+}
+
+.img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 100%;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.information {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 16px 48px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 1024px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.quote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    box-sizing: border-box;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 48px;
+    box-sizing: border-box;
+    gap: 16px;
+    max-width: 1024px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-container p {
+    margin: 0;
+}
+
+.quote-author {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.call-container {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    max-width: 1024px;
+    padding: 26px 48px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #1f2937;
+    padding: 16px 48px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: white;
+}
+
+
+
+.logo {
+    color: #f9faf8;
+    height: 64px;
+}
+
+header ul li,
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.call-button {
+    border: white 2px solid;
+}
